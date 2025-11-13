@@ -1,0 +1,17 @@
+Test 1 (Short)
+Text: "abababab"
+Pattern: "ab"
+Expected occurrences: indices [0, 2, 4, 6]
+Count: 4
+
+Test 2 (Medium)
+Text: "abxabcabcaby"
+Pattern: "abcaby"
+Expected occurrences: [6]
+Count: 1
+
+Test 3 (Long)
+Text: "abcde" repeated 2000 times (length 10000)
+Pattern: "cdeab"
+Expected occurrences: indices 2, 7, 12, ..., (2 + 5*k) for k=0..1999
+Count: 2000

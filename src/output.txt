@@ -1,0 +1,19 @@
+Example console output (format; times will vary):
+=== Test: Short ===
+Text length: 8, Pattern length: 2
+Occurrences count: 4
+First 10 indices (or fewer): [0, 2, 4, 6]
+Elapsed time: 0.02 ms
+
+=== Test: Medium ===
+Text length: 12, Pattern length: 6
+Occurrences count: 1
+First 10 indices (or fewer): [6]
+Elapsed time: 0.01 ms
+
+=== Test: Long (10000 chars) ===
+Text length: 10000, Pattern length: 5
+Occurrences count: 2000
+First 10 indices (or fewer): [2, 7, 12, 17, 22, 27, 32, 37, 42, 47]
+Last index: 9997
+Elapsed time: 1.2 ms
